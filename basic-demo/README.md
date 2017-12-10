@@ -18,25 +18,25 @@ gradle wrapper
 
 in a build.gradle file
 
-task <taskname>( options ) { 
-	...code...
-}
-
-exampels)
-
-tasks copy(type: Copy) {
-	from 'src'
-	into 'dest'
-}
+task <taskname>( options ) {   
+	...code...  
+}  
+  
+exampels)  
+  
+tasks copy(type: Copy) {  
+	from 'src'  
+	into 'dest'  
+}  
 
 ### Configure a task and use a plugins
 
 ina build.gradle file
 
-plugins {
-	id '<plugins names>'
-}
-
+plugins {  
+	id '<plugins names>'  
+}  
+  
 "plugins" should be written top of the file.
 
 
