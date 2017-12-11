@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+dependencies {
+	compile project(':greeting-library')
+}
+mainClassName = 'greeter.Greeter'
+
+distZip {
+	from project(':docs').asciidoctor, {
+		into "${project.name}-${version}"
+	}
+}
+distTar {
+	from project(':docs').asciidoctor, {
+		into "${project.name}-${version}"
+	}
+}
+

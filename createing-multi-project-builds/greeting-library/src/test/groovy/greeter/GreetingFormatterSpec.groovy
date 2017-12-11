@@ -1,4 +1,4 @@
-package greeter
+package ggreeter
 
 import spock.lang.Specification
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="greeter.GreeterSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-11T04:52:15" hostname="DESKTOP-WJ-816" time="0.071">
+  <properties/>
+  <testcase name="Calling the entry point" classname="greeter.GreeterSpec" time="0.071"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
